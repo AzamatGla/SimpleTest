@@ -11,7 +11,6 @@ class TestEmployee(TestCase):
     def tearDown(self):
         pass
 
-
     def test_email(self):
 
         self.assertEqual(self.emp1.email(), 'Azamat.Sultanov@mail.ru')
